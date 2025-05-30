@@ -1,0 +1,64 @@
+.Generate-Div{
+    margin-left: 5%;
+}
+.Upload-Button-Title {
+    margin-right: 5px;
+    margin-left: 20px;
+}
+
+.importLabel {
+    background-color: ghostwhite;
+    color: black;
+    padding: 0.25rem;
+    border-radius: 0.3rem;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    display: inline-block;
+}
+
+.importLabel:hover {
+    background-color: pink;
+    cursor: pointer;
+}
+
+
+.fileName {
+    margin-left: 5px;
+}
+
+
+.Left-Menu-Bar {
+    width: 100%;
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+.Menu-Bar {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.import-button {
+    display: flex;
+    align-items: center;
+}
+
+@media (max-width: 920px) {
+    .Left-Menu-Bar{
+        flex-wrap: wrap;
+    }
+    .import-button {
+        flex: 24.5%;
+    }
+    .Generate-Div{
+        flex-basis: 50%;
+        margin: 20px 25% 0px 25%;
+    }
+    #generateScheduleButton{
+        width: 100%
+    }
+}

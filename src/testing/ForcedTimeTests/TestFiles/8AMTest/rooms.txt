@@ -1,0 +1,4 @@
+room_nm	capacity	room_dep1	room_dep2
+CC03	30
+CC107	24
+CC108	24

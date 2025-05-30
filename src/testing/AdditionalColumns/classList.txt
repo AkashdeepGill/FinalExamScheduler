@@ -1,0 +1,5 @@
+id_num	yr_cde	trm_cde	crs_cde	lead_instructr_id	crs_enrollment	bad_col
+uniqueStudent1	2022	Q1	Course_1	walter white	20
+uniqueStudent2	2022	Q1	Course_2	John Johnson	20
+uniqueStudent3	2022	Q1	Course_3	Michael237316	20
+uniqueStudent4	2022	Q1	Course_3	Matthew W	20

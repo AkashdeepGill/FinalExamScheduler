@@ -1,0 +1,4 @@
+room_nm	capacity	room_dep1	room_dep2	usable
+DBS1	30			0
+DBS2	30			0
+DBS3	30			0

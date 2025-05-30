@@ -1,0 +1,4 @@
+yr_cde	trm_cde	room_cde	crs_cde	monday_cde	tuesday_cde	wednesday_cde	thursday_cde	friday_cde	saturday_cde	sunday_cde	begin_tim	end_tim	exam_room	exam_day	exam_time	force_time
+2022	Q1	CC107	STAMP_ME_CLS_1	M		W		F			1/1/00 08:00	1/1/00 08:50
+2022	Q1	CC108	STAMP_ME_CLS_2		T	W	R				1/1/00 09:00	1/1/00 09:50
+2022	Q1	CC03	STAMP_ME_CLS_3			W	R	F			1/1/00 14:00	1/1/00 14:50

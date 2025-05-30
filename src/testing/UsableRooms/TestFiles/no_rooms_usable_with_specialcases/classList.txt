@@ -1,0 +1,3 @@
+id_num	yr_cde	trm_cde	crs_cde	lead_instructr_id	crs_enrollment
+student1	2022	Q1	CSC  1110 051	the professory1	1
+student2	2022	Q1	CSC  1110 031	the pro	1

@@ -1,0 +1,3 @@
+crs_cde	final_type	yr_cde	trm_cde
+CSC  1110	c
+SWE  3710 011,SWE  3710 021	x

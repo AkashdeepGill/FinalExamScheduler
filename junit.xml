@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="45" failures="0" errors="0" time="27.424">
+  <testsuite name="ForcedTimeTests" errors="0" failures="0" skipped="0" timestamp="2024-02-27T16:48:41" time="16.91" tests="4">
+    <testcase classname="ForcedTimeTests No Forced Time Classes" name="ForcedTimeTests No Forced Time Classes" time="0.012">
+    </testcase>
+    <testcase classname="ForcedTimeTests One Forced Time Exam" name="ForcedTimeTests One Forced Time Exam" time="0.007">
+    </testcase>
+    <testcase classname="ForcedTimeTests Two Forced Time Exams In Different Rooms" name="ForcedTimeTests Two Forced Time Exams In Different Rooms" time="0.006">
+    </testcase>
+    <testcase classname="ForcedTimeTests 8 AM Force Time Testing" name="ForcedTimeTests 8 AM Force Time Testing" time="0.005">
+    </testcase>
+  </testsuite>
+  <testsuite name="SpecialCaseTests" errors="0" failures="0" skipped="0" timestamp="2024-02-27T16:48:41" time="16.987" tests="4">
+    <testcase classname="SpecialCaseTests All Normal Classes" name="SpecialCaseTests All Normal Classes" time="0.046">
+    </testcase>
+    <testcase classname="SpecialCaseTests No Student Class" name="SpecialCaseTests No Student Class" time="0.008">
+    </testcase>
+    <testcase classname="SpecialCaseTests No Final Class" name="SpecialCaseTests No Final Class" time="0.008">
+    </testcase>
+    <testcase classname="SpecialCaseTests No Final And No Student Class" name="SpecialCaseTests No Final And No Student Class" time="0.006">
+    </testcase>
+  </testsuite>
+  <testsuite name="Priority Exam Testing" errors="0" failures="0" skipped="0" timestamp="2024-02-27T16:48:41" time="16.915" tests="1">
+    <testcase classname="Priority Exam Testing One Test to Keep Previous Suite for Now" name="Priority Exam Testing One Test to Keep Previous Suite for Now" time="0.014">
+    </testcase>
+  </testsuite>
+  <testsuite name="Weight Function Tests" errors="0" failures="0" skipped="0" timestamp="2024-02-27T16:48:41" time="16.937" tests="1">
+    <testcase classname="Weight Function Tests One Test to Keep Previous Suite for Now" name="Weight Function Tests One Test to Keep Previous Suite for Now" time="0.007">
+    </testcase>
+  </testsuite>
+  <testsuite name="Night Class Tests" errors="0" failures="0" skipped="0" timestamp="2024-02-27T16:48:41" time="16.908" tests="1">
+    <testcase classname="Night Class Tests One Test to Keep Previous Suite for Now" name="Night Class Tests One Test to Keep Previous Suite for Now" time="0.007">
+    </testcase>
+  </testsuite>
+  <testsuite name="Common Final on Friday Testing" errors="0" failures="0" skipped="0" timestamp="2024-02-27T16:48:41" time="17.018" tests="2">
+    <testcase classname="Common Final on Friday Testing No Common Finals on Friday" name="Common Final on Friday Testing No Common Finals on Friday" time="0.019">
+    </testcase>
+    <testcase classname="Common Final on Friday Testing One Common Final on Friday" name="Common Final on Friday Testing One Common Final on Friday" time="0.045">
+    </testcase>
+  </testsuite>
+  <testsuite name="Memento Tests" errors="0" failures="0" skipped="0" timestamp="2024-02-27T16:48:41" time="16.944" tests="3">
+    <testcase classname="Memento Tests Creating a memento with 3 scheduled classes" name="Memento Tests Creating a memento with 3 scheduled classes" time="0.024">
+    </testcase>
+    <testcase classname="Memento Tests Memento properly saved with 3 scheduled classes" name="Memento Tests Memento properly saved with 3 scheduled classes" time="0.007">
+    </testcase>
+    <testcase classname="Memento Tests Memento properly parsed with 3 scheduled classes" name="Memento Tests Memento properly parsed with 3 scheduled classes" time="0.015">
+    </testcase>
+  </testsuite>
+  <testsuite name="Common Finals Tests" errors="0" failures="0" skipped="0" timestamp="2024-02-27T16:48:41" time="17.045" tests="3">
+    <testcase classname="Common Finals Tests Memento return before and after phase 2 are the same" name="Common Finals Tests Memento return before and after phase 2 are the same" time="0.106">
+    </testcase>
+    <testcase classname="Common Finals Tests 5 sections, 3 instructors, 1 instructor has 3 sections (all in same room)" name="Common Finals Tests 5 sections, 3 instructors, 1 instructor has 3 sections (all in same room)" time="0.015">
+    </testcase>
+    <testcase classname="Common Finals Tests 5 sections, 5 instructors, all exams are on the same day/time" name="Common Finals Tests 5 sections, 5 instructors, all exams are on the same day/time" time="0.043">
+    </testcase>
+  </testsuite>
+  <testsuite name="Redux Weights Testing" errors="0" failures="0" skipped="0" timestamp="2024-02-27T16:48:41" time="17.057" tests="6">
+    <testcase classname="Redux Weights Testing No Double Booked Students" name="Redux Weights Testing No Double Booked Students" time="0.022">
+    </testcase>
+    <testcase classname="Redux Weights Testing 3 Double Booked Students" name="Redux Weights Testing 3 Double Booked Students" time="0.015">
+    </testcase>
+    <testcase classname="Redux Weights Testing 1 Manually Double Booked Student" name="Redux Weights Testing 1 Manually Double Booked Student" time="0.01">
+    </testcase>
+    <testcase classname="Redux Weights Testing Manually unschedule double booked student" name="Redux Weights Testing Manually unschedule double booked student" time="0.008">
+    </testcase>
+    <testcase classname="Redux Weights Testing 1 student with 2 double bookings at same day/time" name="Redux Weights Testing 1 student with 2 double bookings at same day/time" time="0.008">
+    </testcase>
+    <testcase classname="Redux Weights Testing 1 student with 2 double bookings at different days/times" name="Redux Weights Testing 1 student with 2 double bookings at different days/times" time="0.007">
+    </testcase>
+  </testsuite>
+  <testsuite name="Double Booked Instructor Redux Testing" errors="0" failures="0" skipped="0" timestamp="2024-02-27T16:48:41" time="17.12" tests="6">
+    <testcase classname="Double Booked Instructor Redux Testing No Double Booked Instructors" name="Double Booked Instructor Redux Testing No Double Booked Instructors" time="0.022">
+    </testcase>
+    <testcase classname="Double Booked Instructor Redux Testing Manually Schedule 1 Exam to Cause Double Booked Instructor" name="Double Booked Instructor Redux Testing Manually Schedule 1 Exam to Cause Double Booked Instructor" time="0.038">
+    </testcase>
+    <testcase classname="Double Booked Instructor Redux Testing Forced Time Exams Cause 1 Double Booked Instructor" name="Double Booked Instructor Redux Testing Forced Time Exams Cause 1 Double Booked Instructor" time="0.011">
+    </testcase>
+    <testcase classname="Double Booked Instructor Redux Testing Forced Time Exams Cause 2 Double Booked Instances of Same Professor" name="Double Booked Instructor Redux Testing Forced Time Exams Cause 2 Double Booked Instances of Same Professor" time="0.027">
+    </testcase>
+    <testcase classname="Double Booked Instructor Redux Testing Unschedule 1 Exam to Cause No Double Booked Instructors" name="Double Booked Instructor Redux Testing Unschedule 1 Exam to Cause No Double Booked Instructors" time="0.051">
+    </testcase>
+    <testcase classname="Double Booked Instructor Redux Testing Unschedule 2 Exams to Cause No Double Booked Instructors" name="Double Booked Instructor Redux Testing Unschedule 2 Exams to Cause No Double Booked Instructors" time="0.019">
+    </testcase>
+  </testsuite>
+  <testsuite name="Phase One Tests" errors="0" failures="0" skipped="0" timestamp="2024-02-27T16:48:41" time="16.942" tests="1">
+    <testcase classname="Phase One Tests One Test to Keep Previous Suite for Now" name="Phase One Tests One Test to Keep Previous Suite for Now" time="0.002">
+    </testcase>
+  </testsuite>
+  <testsuite name="Redux Weights Testing" errors="0" failures="0" skipped="0" timestamp="2024-02-27T16:48:41" time="17.05" tests="1">
+    <testcase classname="Redux Weights Testing Service Worker sends progress" name="Redux Weights Testing Service Worker sends progress" time="0.277">
+    </testcase>
+  </testsuite>
+  <testsuite name="Phase 2 Tests" errors="0" failures="0" skipped="0" timestamp="2024-02-27T16:48:41" time="17.212" tests="3">
+    <testcase classname="Phase 2 Tests Memento return before and after phase 2 are the same (course map and room map)" name="Phase 2 Tests Memento return before and after phase 2 are the same (course map and room map)" time="0.076">
+    </testcase>
+    <testcase classname="Phase 2 Tests 3 schedules of different weights, ensure the lowest is chosen" name="Phase 2 Tests 3 schedules of different weights, ensure the lowest is chosen" time="0.002">
+    </testcase>
+    <testcase classname="Phase 2 Tests Given 2 cross-listed classes and 2 NOT cross-listed, the crossed classes are scheduled together" name="Phase 2 Tests Given 2 cross-listed classes and 2 NOT cross-listed, the crossed classes are scheduled together" time="0.077">
+    </testcase>
+  </testsuite>
+  <testsuite name="Redux Weights Testing" errors="0" failures="0" skipped="0" timestamp="2024-02-27T16:48:41" time="17.273" tests="8">
+    <testcase classname="Redux Weights Testing 1 Student With 3 Same Day Exams" name="Redux Weights Testing 1 Student With 3 Same Day Exams" time="0.024">
+    </testcase>
+    <testcase classname="Redux Weights Testing 2 Students With 3 Same Day Exams" name="Redux Weights Testing 2 Students With 3 Same Day Exams" time="0.051">
+    </testcase>
+    <testcase classname="Redux Weights Testing 1 Student With 4 Same Day Exams" name="Redux Weights Testing 1 Student With 4 Same Day Exams" time="0.011">
+    </testcase>
+    <testcase classname="Redux Weights Testing Manually Schedule 1 Student With 3 Same Day Exams" name="Redux Weights Testing Manually Schedule 1 Student With 3 Same Day Exams" time="0.011">
+    </testcase>
+    <testcase classname="Redux Weights Testing Manually Schedule 1 Student With 4 Same Day Exams" name="Redux Weights Testing Manually Schedule 1 Student With 4 Same Day Exams" time="0.011">
+    </testcase>
+    <testcase classname="Redux Weights Testing Unschedule Conflicting Class" name="Redux Weights Testing Unschedule Conflicting Class" time="0.007">
+    </testcase>
+    <testcase classname="Redux Weights Testing Unschedule Conflicting Class" name="Redux Weights Testing Unschedule Conflicting Class" time="0.005">
+    </testcase>
+    <testcase classname="Redux Weights Testing Unschedule Conflicting Class" name="Redux Weights Testing Unschedule Conflicting Class" time="0.005">
+    </testcase>
+  </testsuite>
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2024-02-27T16:48:41" time="19.084" tests="1">
+    <testcase classname=" Generate Schedule Clicked" name=" Generate Schedule Clicked" time="0.063">
+    </testcase>
+  </testsuite>
+</testsuites>

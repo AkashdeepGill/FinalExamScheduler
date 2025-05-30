@@ -1,0 +1,4 @@
+yr_cde	trm_cde	room_cde	crs_cde	monday_cde	tuesday_cde	wednesday_cde	thursday_cde	friday_cde	saturday_cde	sunday_cde	begin_tim	end_tim	exam_room	exam_day	exam_time	force_time	bad_col
+2022	Q1	Room1	MRG  1000 001	M		W		F			1/1/00 10:00	1/1/00 10:50
+2022	Q1	Room1	MRG  1000 002	M		W		F			1/1/00 10:00	1/1/00 10:50
+2022	Q1	Room1	MRG  1000 003	M		W		F			1/1/00 10:00	1/1/00 10:50

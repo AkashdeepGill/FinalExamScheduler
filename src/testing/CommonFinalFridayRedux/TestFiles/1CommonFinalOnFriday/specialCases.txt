@@ -1,0 +1,2 @@
+crs_cde	final_type	yr_cde	trm_cde
+CLASS_A_	C

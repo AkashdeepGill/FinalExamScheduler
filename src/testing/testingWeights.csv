@@ -1,0 +1,11 @@
+Name,Weight
+No Available Time,-1
+Room Time Double Booked,-1
+Student has 2 priority Exams Same Day ,1
+Room Too Small,7
+Instructor Double Booked,5
+Student Double Booked,3
+Student has 3 Exams Same Day ,2
+Student has 2 Exams Same Day ,1
+Common Final at 5:30,4
+Common Final on Friday,3

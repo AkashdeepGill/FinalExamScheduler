@@ -1,0 +1,2 @@
+room_nm	capacity	room_dep1	room_dep2
+DBI1	30		

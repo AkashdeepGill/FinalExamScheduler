@@ -1,0 +1,7 @@
+id_num	yr_cde	trm_cde	crs_cde	lead_instructr_id	crs_enrollment
+student1	2022	Q1	CLASS_A_	bing schilling1	3
+student1	2022	Q1	CLASS_B_	the professory1	3
+student2	2022	Q1	CLASS_A_	bing schilling1	3
+student2	2022	Q1	CLASS_B_	the professory1	3
+student3	2022	Q1	CLASS_A_	bing schilling1	3
+student3	2022	Q1	CLASS_B_	the professory1	3

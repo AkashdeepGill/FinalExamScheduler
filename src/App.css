@@ -1,0 +1,31 @@
+p {
+  margin: 0px;
+}
+
+button {
+  color: white;
+  background: #bc0000;
+  border: none;
+  padding: 6px;
+}
+
+button:hover {
+  color: lightgrey;
+  background: #a20101;
+  cursor: pointer;
+}
+
+input {
+  border-radius: 0px;
+  border-width: 1px;
+  font-size: 16px;
+  width: 20%;
+  clear: both;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+

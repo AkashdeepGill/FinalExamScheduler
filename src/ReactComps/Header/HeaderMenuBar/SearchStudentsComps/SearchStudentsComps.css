@@ -1,0 +1,21 @@
+/* ---------------- Search Student CSS ---------------- */
+
+.Modal-Container {
+    position: relative;
+    height: 100%;
+    display: none;
+}
+
+.Schedule-Modal-Button {
+    position: fixed;
+    bottom: 60px;
+    right: 125px;
+    z-index: 999;
+}
+
+.Cancel-Modal-Button {
+    position: fixed;
+    bottom: 60px;
+    right: 60px;
+    z-index: 999;
+}

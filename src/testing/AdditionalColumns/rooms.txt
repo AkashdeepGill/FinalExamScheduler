@@ -1,0 +1,4 @@
+room_nm	capacity	room_dep1	room_dep2
+CCSI_Room1	30
+CCSI_Room2	24
+CCSI_Room3	24

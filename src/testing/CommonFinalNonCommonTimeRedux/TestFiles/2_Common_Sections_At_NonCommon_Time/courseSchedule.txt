@@ -1,0 +1,3 @@
+yr_cde	trm_cde	room_cde	crs_cde	monday_cde	tuesday_cde	wednesday_cde	thursday_cde	friday_cde	saturday_cde	sunday_cde	begin_tim	end_tim	examRoom	examDay	examTime	force_time
+2022	Q1	DH344	CSC  1110 051	M				F			1/1/2000 11:00	1/1/2000 11:50	DBS1	M	14:00	1
+2022	Q1	DH344	CSC  1110 031	M				F			1/1/2000 11:00	1/1/2000 11:50	DBS2	M	14:00	1

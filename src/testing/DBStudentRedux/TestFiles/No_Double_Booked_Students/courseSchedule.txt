@@ -1,0 +1,3 @@
+yr_cde	trm_cde	room_cde	crs_cde	monday_cde	tuesday_cde	wednesday_cde	thursday_cde	friday_cde	saturday_cde	sunday_cde	begin_tim	end_tim	examRoom	examDay	examTime	force_time
+2022	Q1	CCSI_Room1	CLASS_A_	M	T						1/1/2000 14:00	1/1/2000 14:50	DBS1	M	8:00	1
+2022	Q1	CCSI_Room2	CLASS_B_			W	R				1/1/2000 14:00	1/1/2000 14:50	DBS2	T	8:00	1

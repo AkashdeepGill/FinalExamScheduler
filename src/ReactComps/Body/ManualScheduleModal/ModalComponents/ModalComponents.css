@@ -1,0 +1,25 @@
+#Available-Rooms-Div {
+    margin-top: 10px;
+    height: 72%;
+}
+
+.available-room {
+    cursor: pointer;
+}
+
+.available-room:hover {
+    background-color: rgb(190, 190, 190);
+}
+
+.classesAvaliable:hover {
+    cursor: pointer;
+}
+
+.table-scroll {
+    overflow-y: auto;
+    height: 58%
+}
+
+.table-container {
+    width: 100%;
+}

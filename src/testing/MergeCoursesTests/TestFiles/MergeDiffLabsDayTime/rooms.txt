@@ -1,0 +1,4 @@
+room_nm	capacity	room_dep1	room_dep2
+Room1	30
+Room2	30
+Room3	30

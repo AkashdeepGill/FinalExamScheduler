@@ -1,0 +1,41 @@
+image: node:lts
+stages:
+  - test
+  - deploy
+
+unit-test:
+  stage: test
+  before_script:
+    - npm install
+    - npm i use-workerized-reducer
+  script:
+    - npm run test:ci
+  coverage: /All files[^|]*\|[^|]*\s+([\d\.]+)/
+  artifacts:
+    paths:
+      - coverage/
+    when: always
+    reports:
+      junit:
+        - junit.xml
+  allow_failure: false
+
+push:
+  stage: deploy
+  rules:
+    - if: $CI_COMMIT_BRANCH == "main" || ($CI_PIPELINE_SOURCE == 'merge_request_event' && $CI_MERGE_REQUEST_TARGET_BRANCH_NAME == "main")
+      when: on_success
+  script:
+    - git config user.name "CI Pipeline"
+    - git config user.email "cipipeline@example.com"
+    - eval $(ssh-agent -s)
+    - echo "$CI_SSH_ACCESS" | tr -d '\r' | ssh-add - > /dev/null
+    - mkdir -p ~/.ssh
+    - chmod 700 ~/.ssh
+    - '[[ -f /.dockerenv ]] && echo -e "Host *\n\tStrictHostKeyChecking no\n\n" > ~/.ssh/config'
+    - git remote add target git@gitlab.com:finals/fest.git
+    - git fetch --unshallow
+    - echo "$DEPLOY_PIPELINE" > .gitlab-ci.yml
+    - git add .
+    - git commit -m "pipeline push"
+    - git push -f target HEAD:main

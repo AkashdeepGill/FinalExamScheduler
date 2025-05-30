@@ -1,0 +1,2 @@
+crs_cde	final_type	yr_cde	trm_cde
+MRG  1000 001,MRG  1000 002,MRG  1000 003,NAH  1100 110	X

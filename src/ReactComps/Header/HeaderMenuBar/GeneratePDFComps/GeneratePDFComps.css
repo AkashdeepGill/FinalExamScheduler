@@ -1,0 +1,41 @@
+.scroll-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 999;
+    /* Bring to the front */
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+
+  .scroll-icon {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: white;
+    /* Set text color to white */
+    animation: bounce 1s infinite alternate;
+  }
+  
+.text {
+    font-size: 1.5rem;
+    /* Increase text size */
+    color: white;
+    /* Set text color to white */
+  }
+
+  
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+
+  100% {
+    transform: translateY(10px);
+  }
+}

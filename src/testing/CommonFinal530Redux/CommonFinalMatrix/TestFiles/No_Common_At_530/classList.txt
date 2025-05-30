@@ -1,0 +1,2 @@
+id_num	yr_cde	trm_cde	crs_cde	lead_instructr_id	crs_enrollment
+student1	2022	Q1	CLASS_A_	instructor1	1

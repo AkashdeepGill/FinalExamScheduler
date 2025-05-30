@@ -1,0 +1,33 @@
+#body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 97%;
+    margin-top: 1%
+}
+
+tr {
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+
+td {
+    padding: 10px;
+}
+
+table {
+    border-spacing: 0px !important;
+    border-collapse: collapse;
+    width: 97%;
+    margin-left: 20px;
+}
+
+th {
+    background: #bc0000;
+    margin: 0px;
+    padding: 5px;
+    font-weight: normal;
+    color: white;
+    text-align: left;
+}

@@ -1,0 +1,7 @@
+room_nm	capacity	room_dep1	room_dep2
+DH442	24
+DH445	24
+DH449	24
+L304	34
+L305	40
+L304/305	74	L304	L305

@@ -1,0 +1,37 @@
+.unschedule-exam {
+    color: red;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.unscheduleBody {
+    cursor: pointer;
+}
+
+#Scheduled-Div,
+#Unscheduled-Div{
+    margin-top: 40px;
+}
+
+.download-instance-csv-button {
+    margin-left: 20px;
+}
+
+.unscheduled-course {
+    cursor: pointer;
+}
+
+.unscheduled-course:hover {
+    background-color: rgb(190, 190, 190);
+}
+
+#returnToTopButton {
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+}
+
+#export-tables-container {
+    width: 100%;
+}

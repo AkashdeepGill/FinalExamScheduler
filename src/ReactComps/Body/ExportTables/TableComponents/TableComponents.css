@@ -1,0 +1,24 @@
+.Table-Header-Bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 97%;
+    margin-left: 20px
+}
+
+.Table-Options {
+    display: flex;
+    justify-content: space-around;
+}
+
+.Table-Dropdown {
+    width: 35%
+}
+
+.Table-Search {
+    width: 60%
+}
+
+.Table-Label {
+    margin: 20px 0px
+}

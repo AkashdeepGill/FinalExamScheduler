@@ -1,0 +1,14 @@
+#App-header {
+    background-color: #bc0000;
+    width: 100%;
+}
+
+#Header-Text {
+    font-size: 20px;
+    padding-top: 9px;
+    padding-left: 10px;
+    color: white;
+    justify-content: space-between;
+}
+
+

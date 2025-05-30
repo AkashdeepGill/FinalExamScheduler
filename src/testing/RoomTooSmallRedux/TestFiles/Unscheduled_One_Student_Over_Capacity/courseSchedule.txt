@@ -1,0 +1,2 @@
+yr_cde	trm_cde	room_cde	crs_cde	monday_cde	tuesday_cde	wednesday_cde	thursday_cde	friday_cde	saturday_cde	sunday_cde	begin_tim	end_tim			
+2022	Q1	CCSI_Room1	RTS_Redux_Testing	M	T						1/1/2000 14:00	1/1/2000 14:50			

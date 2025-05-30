@@ -1,0 +1,61 @@
+.pagination {
+    position: relative;
+    width: 40px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+}
+
+.pagination button {
+    position: absolute;
+    top: 0;
+}
+
+.pagination button:first-child {
+    left: 0;
+}
+
+.pagination button:last-child {
+    right: 0;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.USRow {
+    transition: background-color 0.2s;
+}
+
+.USRow:hover {
+    background-color: #e3e3e3;
+    cursor: pointer;
+}
+
+.weights-input {
+    border-width: 0px;
+    background-color: transparent;
+    width: min-content;
+}
+
+.weights-input:hover {
+    border-width: 0px;
+    background-color: transparent;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.weights-input:focus {
+    text-decoration: none;
+    cursor: text;
+    font-weight: 600;
+    width: 3rem;
+}
+
+.weights-input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+#Name-Header {
+    width: 45%;
+}

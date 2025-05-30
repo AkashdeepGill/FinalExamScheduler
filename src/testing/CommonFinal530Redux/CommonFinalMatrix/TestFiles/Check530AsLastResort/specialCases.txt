@@ -1,0 +1,7 @@
+crs_cde	final_type	yr_cde	trm_cde
+CLASS_A_	c		
+CLASS_B_	c		
+CLASS_C_	c		
+CLASS_D_	c		
+CLASS_E_	c		
+CLASS_F_	c		

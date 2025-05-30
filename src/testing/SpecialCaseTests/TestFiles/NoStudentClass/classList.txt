@@ -1,0 +1,5 @@
+id_num	yr_cde	trm_cde	crs_cde	lead_instructr_id	crs_enrollment
+234567	2022	Q1	AE   4712 011	237316	20
+234568	2022	Q1	AE   4712 011	237316	20
+234569	2022	Q1	UX   3011 001	237316	20
+234570	2022	Q1	UX   3011 001	237316	20
